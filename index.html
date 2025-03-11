@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Temperature Converter</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1>Temperature Converter</h1>
-        </header>
-        
-        <main>
-            <label for="temp-input">Temperature in Celsius:</label>
-            <input type="number" id="temp-input" placeholder="Enter temperature">
-            
-            <label for="unit-select">Convert to:</label>
+      <header>
+        <div class="span">
+          <h1>Temperature Converter</h1>
+        </div>
+      </header>
+
+      <main>
+        <div class="temperature-celsius">
+          <label for="temp-input">Temperature in Celsius:</label>
+          <input type="number" id="temp-input" placeholder="Enter temperature" />
+        </div>
+
+        <div class="convert">
+          <label for="unit-select">Convert to:</label>
+          <div class="convert-section">
             <select id="unit-select">
-                <option value="fahrenheit">Fahrenheit (°F)</option>
-                <option value="kelvin">Kelvin (K)</option>
+              <option value="fahrenheit">Fahrenheit (°F)</option>
+              <option value="kelvin">Kelvin (K)</option>
             </select>
-            
-            <button id="convert-btn">Convert</button>
-            
-            <p id="result">Result: --</p>
-        </main>
+            <button id="convert-btn">Submit</button>
+          </div>
+        </div>
+
+        <p id="result">Result: --</p>
+
+        <div class="span-img">
+          <img src="/assets/clouds.png" alt="" />
+        </div>
+      </main>
     </div>
-    
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
