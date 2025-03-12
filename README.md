@@ -18,6 +18,8 @@ A simple temperature converter that I built from scratch! 🌡️🔥❄️
 3. Click the "Convert" button to see the result.
 
 ## 💡 Project Preview
+![Temperature Converter Preview](/assets/preview.gif)
+
 
 
 ## 📂 Installation
