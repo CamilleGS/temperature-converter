@@ -20,6 +20,10 @@ A simple temperature converter that I built from scratch! 🌡️🔥❄️
 ## 💡 Project Preview
 ![Temperature Converter Preview](/assets/preview.gif)
 
+---
+![Temperature Converter Preview](/assets/preview.png)
+
+
 
 
 ## 📂 Installation
