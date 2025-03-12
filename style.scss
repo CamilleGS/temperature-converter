@@ -2,8 +2,10 @@ $clr-text: #ffffff;
 $clr-input: #f8f8f8;
 $clr-span: #318ff1;
 $clr-button: #1e78f0;
-$clr-innertext: #b3b3b3;
+$clr-innertext: #838383;
 $clr-innerInputColor: #000000;
+$clr-span-img: #58BFF9;
+$clr-body: #318FF1;
 
 *,
 *:before,
@@ -86,6 +88,8 @@ main {
 
 body {
   line-height: 1;
+  margin-top: 100px;
+  background-color: $clr-body;
 }
 
 input {
@@ -114,6 +118,10 @@ button {
   height: 667px;
   background-image: url(/assets/download.png);
   padding: 40px 48px 0px 47px;
+  margin: 0 auto;
+
+
+  
 
   .span {
     width: 280px;
@@ -196,13 +204,26 @@ button {
 
 
 
-    /* .span-image {
-      background-color: $clr-button;
-    } */
+    
   }
+
+  
+  .span1-img{
+    text-align: center;
+    background: $clr-span-img;
+    border-radius: 20px;
+    width: 280px;
+    height: 243px;
+    opacity: 0.82;
+    margin-top: 30px;
+
+
+  } 
 }
 
-#temp-input{
-  color: black;
-  text-align: center;
+  #temp-input{
+    color: $clr-innertext;
+    text-align: center;
+
+  
 }
